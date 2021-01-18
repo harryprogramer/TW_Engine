@@ -19,6 +19,7 @@
 
 void connect_to_launcher()
 {
+    //connection with launcher game, simple windows socket server
     WSADATA wsaData;
     SOCKET ConnectSocket = INVALID_SOCKET;
     struct addrinfo* result = NULL,
