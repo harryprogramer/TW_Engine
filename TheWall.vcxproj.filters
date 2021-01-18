@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{8af18422-542a-4fc5-837f-46cab73e90eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\sounds">
+      <UniqueIdentifier>{a3c82258-60eb-4ac2-9ff8-96df15debad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{9505ea19-d18f-41e9-9c49-9afbb4441ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\sounds">
+      <UniqueIdentifier>{d3d4084d-cb88-4cec-bd89-eb0fb0835d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\levels">
+      <UniqueIdentifier>{31106aed-3506-43c7-882b-83c53074c328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\levels">
+      <UniqueIdentifier>{7c3820b3-f388-4833-8156-ab6190973019}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\sounds\step.h">
+      <Filter>Header Files\engine\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\sounds\PlaySound_TheWallEngine.h">
+      <Filter>Header Files\engine\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="game\levels\Menu.h">
+      <Filter>Header Files\engine\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\TheWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\core\MsgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\launcher\NetSock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\Events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\engine\core\TitleEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\sounds\step.cpp">
+      <Filter>Source Files\engine\sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\sounds\PlaySound_TheWallEngine.cpp">
+      <Filter>Source Files\engine\sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="game\levels\Menu.cpp">
+      <Filter>Source Files\engine\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\TheWall.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\core\MsgBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\launcher\NetSock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\Events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\engine\core\TitleEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TheWall.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\game\assets\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
