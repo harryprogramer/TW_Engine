@@ -25,12 +25,11 @@ void Events::events_onUpdate()
 		// Handle CCW Rotation
 		if (GetAsyncKeyState(VK_F6))
 			if (GetAsyncKeyState(VK_CONTROL)) {
-				//MsgBox::MsgBox_TW("Instrukcja spod 0x0a62282 odwo³uje siê do pamiêci pod adresem 0xfffffff. Pamiêæ nie mo¿e byæ read.", L"The Wall.exe - B³¹d aplikacji", MB_ICONERROR | MB_OK);
-				break;
+				exit(EXIT_FAILURE);
 			}
 
 		if (fPlayerX < 12.00f) {
-			//wMsgBox::MsgBox_TW("Instrukcja spod 0x0a62282 odwo³uje siê do pamiêci pod adresem 0xfffffff. Pamiêæ nie mo¿e byæ read.", L"The Wall.exe - B³¹d aplikacji", MB_ICONERROR | MB_OK);
+			//simple event
 		}	
 	}
 }
